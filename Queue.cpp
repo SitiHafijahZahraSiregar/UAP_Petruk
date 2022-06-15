@@ -66,7 +66,8 @@ int main (){
 			cout<<"Terima Kasih \n";
 				system ("pause");
 				break ;
-			default :
+		
+                default :
 			cout<<"Pilihan Tidak Tersedia Silahkan Pilih Lagi\n";
 			return 0;
 		}
