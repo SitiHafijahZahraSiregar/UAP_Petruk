@@ -53,10 +53,8 @@ int main (){
 			}
 			system ("pause");
 			break;
-		case 4 : 
-			cout<<"Terima Kasih \n";
-			system ("pause");
-			break;
+		
+				
 		}
 return 0;
 }
