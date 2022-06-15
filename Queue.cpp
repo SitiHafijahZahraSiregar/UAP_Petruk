@@ -41,7 +41,15 @@ int main (){
 			}
 			break;
 		
-				
+		case 2 :
+			if (!bioskop.empty()){
+				cout<<"Nomor Antrian : "<<bioskop.front()<<" Silahkan Mengambil Tiket\n";
+				bioskop.pop();
+			}else{
+				cout<<"Tidak Ada Antrian\n";
+			}
+			system ("pause");
+			break;		
 				
 		case 3 : 
 		if (!bioskop.empty()){
