@@ -57,9 +57,6 @@ int main (){
 			cout<<"Terima Kasih \n";
 			system ("pause");
 			break;
-		default :
-		cout<< "Pilihan Tidak Tersedia Silahkan Pilih lagi\n";
-		return 0;
-		}while(pilih != 4);
+		}
 return 0;
 }
