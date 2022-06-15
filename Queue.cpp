@@ -61,8 +61,16 @@ int main (){
 			}
 			system ("pause");
 			break;
-		
 				
+		case 4 :
+			cout<<"Terima Kasih \n";
+				system ("pause");
+				break ;
+			default :
+			cout<<"Pilihan Tidak Tersedia Silahkan Pilih Lagi\n";
+			return 0;
 		}
+			}while(pilih != 4);	
+		
 return 0;
 }
