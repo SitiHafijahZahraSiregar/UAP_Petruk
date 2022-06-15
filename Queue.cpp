@@ -40,6 +40,26 @@ int main (){
 				bioskop.push(angka);
 			}
 			break;
-
+		
+				
+				
+		case 3 : 
+		if (!bioskop.empty()){
+			cout<<"Nomor Antrian Depan    :"<<bioskop.front()<<endl;
+			cout<<"Nomor Antrian Belakang :"<<bioskop.back()<<endl;
+			tampilan (bioskop);
+			}else{
+				cout<<"Antrian Kosong\n";
+			}
+			system ("pause");
+			break;
+		case 4 : 
+			cout<<"Terima Kasih \n";
+			system ("pause");
+			break;
+		default :
+		cout<< "Pilihan Tidak Tersedia Silahkan Pilih lagi\n";
+		return 0;
+		}while(pilih != 4);
 return 0;
 }
